@@ -11,6 +11,19 @@ Licence URI: http://www.os-templates.com/template-terms
 <title>BusinessToday</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<style>
+  dl{
+    border: 1px solid black;
+    border-color: red;
+    margin-right: 150px;
+    
+  }
+  ol{
+    border: 1px solid black;
+    border-color: blue;
+    margin-left: 150px;
+  }
+</style>
 </head>
 <body id="top">
 <div class="wrapper col1">
@@ -64,7 +77,8 @@ Licence URI: http://www.os-templates.com/template-terms
 </div>
 <div class="wrapper col3">
   <div id="intro">
-      <h1>Lab1</h1>
+    
+      <dl><h1>Lab1</h1>
       <form method="post" action="https://shihsianglailee.github.io/MyFirstRepo/">
       <p><label>Name:
         <input name="name" type="type" size="25" maxlength="35">
@@ -97,8 +111,8 @@ Licence URI: http://www.os-templates.com/template-terms
           <input type="reset" value="Clear">
       </p>
       
-    </form>
-    <h1>Lab2</h1>
+    </form></dl>
+    <ol><h1>Lab2</h1>
     <br><h1>Deitel & Association, Inc.</h1>
     <p style="width:20%">Deitel & Association, Inc.is an authoring and cooperate organization specializing in programming language.</p>
     <h2>Clients</h2>
@@ -108,7 +122,67 @@ Licence URI: http://www.os-templates.com/template-terms
     <input type="button" value="2nd button" onclick="alert('second alert!')">
     <input type="button" value="blue" onclick="document.body.style.backgroundColor='blue',">
     <input type="button" value="yellow" onclick="document.body.style.backgroundColor='yellow',">
+  </ol>
     </div>
   </div>
+  <div class="wrapper col6">
+  <div id="footer">
+    <div id="login">
+      <h2>Client Login !</h2>
+      <p>Clients can Login to their accounts here.</p>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Client Login</legend>
+          <div class="fl_left">
+            <input type="text" value="Enter email address&hellip;"  onfocus="this.value=(this.value=='Enter email address&hellip;')? '' : this.value ;" />
+            <input type="password" value="Enter password&hellip;"  onfocus="this.value=(this.value=='Enter password&hellip;')? '' : this.value ;" />
+          </div>
+          <div class="fl_right">
+            <input type="submit" name="login_go" id="login_go" value="&raquo;" />
+          </div>
+        </fieldset>
+      </form>
+      <p><a href="#">&raquo; Lost Your Password</a> | <a href="#">Create An Account &raquo;</a></p>
+    </div>
+    <div class="footbox">
+      <h2>Lacus interdum</h2>
+      <ul>
+        <li><a href="#">Praesent et eros</a></li>
+        <li><a href="#">Praesent et eros</a></li>
+        <li><a href="#">Lorem ipsum dolor</a></li>
+        <li><a href="#">Suspendisse in neque</a></li>
+        <li class="last"><a href="#">Praesent et eros</a></li>
+      </ul>
+    </div>
+    <div class="footbox">
+      <h2>Lacus interdum</h2>
+      <ul>
+        <li><a href="#">Praesent et eros</a></li>
+        <li><a href="#">Praesent et eros</a></li>
+        <li><a href="#">Lorem ipsum dolor</a></li>
+        <li><a href="#">Suspendisse in neque</a></li>
+        <li class="last"><a href="#">Praesent et eros</a></li>
+      </ul>
+    </div>
+    <div class="footbox">
+      <h2>Lacus interdum</h2>
+      <ul>
+        <li><a href="#">Praesent et eros</a></li>
+        <li><a href="#">Praesent et eros</a></li>
+        <li><a href="#">Lorem ipsum dolor</a></li>
+        <li><a href="#">Suspendisse in neque</a></li>
+        <li class="last"><a href="#">Praesent et eros</a></li>
+      </ul>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<div class="wrapper col7">
+  <div id="copyright">
+    <p class="fl_left">Copyright &copy; 2014 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <br class="clear" />
+  </div>
+</div>
 </body>
 </html>

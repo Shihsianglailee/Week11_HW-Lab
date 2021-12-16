@@ -12,6 +12,20 @@ Licence URI: http://www.os-templates.com/template-terms
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link rel="stylesheet" href="../layout/styles/layout.css" type="text/css" />
 <style type="text/css">
+  .background-image{
+    position: absolute;
+    z-index: 1;
+    border: 1px solid black;
+    border-color: red;
+  }
+  .foreground-image{
+    position: absolute;
+    z-index: 2;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 1px solid black;
+    border-color: blue;
+  }
     body{font-family:cooper black,calibri,arial ;
       color: brown;}
     a.lith{text-decoration: line-through;}
@@ -24,7 +38,11 @@ Licence URI: http://www.os-templates.com/template-terms
     ul{font-family:arial;
       color: black;
       text-decoration: underline;}
-  </style>
+    table{
+      margin-left: 50%;
+    }
+    
+ </style>
 </head>
 <body id="top">
 <div class="wrapper col1">
@@ -136,6 +154,71 @@ Licence URI: http://www.os-templates.com/template-terms
       </tr>
     </form>
   </table>
+  </div>
+</div>
+<div>
+  <p><img src="sunset.jpg" class="background-image" alt="background img">
+    <img src="Sun.png" class="foreground-image" alt="foreground img"></p>
+</div>
+
+
+<div class="wrapper col6">
+  <div id="footer">
+    <div id="login">
+      <h2>Client Login !</h2>
+      <p>Clients can Login to their accounts here.</p>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Client Login</legend>
+          <div class="fl_left">
+            <input type="text" value="Enter email address&hellip;"  onfocus="this.value=(this.value=='Enter email address&hellip;')? '' : this.value ;" />
+            <input type="password" value="Enter password&hellip;"  onfocus="this.value=(this.value=='Enter password&hellip;')? '' : this.value ;" />
+          </div>
+          <div class="fl_right">
+            <input type="submit" name="login_go" id="login_go" value="&raquo;" />
+          </div>
+        </fieldset>
+      </form>
+      <p><a href="#">&raquo; Lost Your Password</a> | <a href="#">Create An Account &raquo;</a></p>
+    </div>
+    <div class="footbox">
+      <h2>Lacus interdum</h2>
+      <ul>
+        <li><a href="#">Praesent et eros</a></li>
+        <li><a href="#">Praesent et eros</a></li>
+        <li><a href="#">Lorem ipsum dolor</a></li>
+        <li><a href="#">Suspendisse in neque</a></li>
+        <li class="last"><a href="#">Praesent et eros</a></li>
+      </ul>
+    </div>
+    <div class="footbox">
+      <h2>Lacus interdum</h2>
+      <ul>
+        <li><a href="#">Praesent et eros</a></li>
+        <li><a href="#">Praesent et eros</a></li>
+        <li><a href="#">Lorem ipsum dolor</a></li>
+        <li><a href="#">Suspendisse in neque</a></li>
+        <li class="last"><a href="#">Praesent et eros</a></li>
+      </ul>
+    </div>
+    <div class="footbox">
+      <h2>Lacus interdum</h2>
+      <ul>
+        <li><a href="#">Praesent et eros</a></li>
+        <li><a href="#">Praesent et eros</a></li>
+        <li><a href="#">Lorem ipsum dolor</a></li>
+        <li><a href="#">Suspendisse in neque</a></li>
+        <li class="last"><a href="#">Praesent et eros</a></li>
+      </ul>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<div class="wrapper col7">
+  <div id="copyright">
+    <p class="fl_left">Copyright &copy; 2014 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <br class="clear" />
   </div>
 </div>
   
